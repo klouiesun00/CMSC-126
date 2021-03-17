@@ -1,3 +1,3 @@
-# CMSC-127
+# CMSC-126
 
-This is for my CMSC 127 project.
+This is for my CMSC 126 project.
