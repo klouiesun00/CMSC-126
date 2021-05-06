@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Book Shelf </title>
+	<link rel="stylesheet" href="../CSS/Myprofile-before.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navidiv">
+			<a href="Homepage.html"> <img src="../CSS/images/logo.png" id="logo" style="width:180px;height:130px" alt="Book Shelf"> </a>
+			 <!-- Put this right below the web app name, very small text -->
+			<ul>
+				<li><a href='book-reviews.html'>Book Reviews </a></li>
+				<li><a href='#'>Recommendations Forums</a></li>
+				<li><a href='Myprofile-before.html'>My Profile </a></li>
+				<li><a href='#'>My Books </a></li>
+				<li><a href="Lists.html">Lists</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	
+	<section class="content">
+		<div> <h3>Welcome to Book Shelf!</h3> </div>
+		<div class="grid-container">
+			<div class="log-in"> <p>Log in</p>
+				<form id="log-in-form" onsubmit="return validateLogin()">
+				  <label for="uname">username:</label>
+				  <input type="text" id="uname" name="uname" ><br><br>
+				  <label for="password">password:</label>
+				  <input type="password" id="password" name="password" ><br><br>
+				  <input type="submit" class="submit-log-in" value="Log in">
+				</form>
+			</div>
+			<div class="sign-up"> <p>Sign up</p>
+				<form id="sign-up-form" onsubmit="return validateSignup()">
+				  <label for="email" id="email-label">email:</label>
+				  <input type="email" id="email" name="email" ><br><br>
+				  <label for="uname">username:</label>
+				  <input type="text" id="uname" name="uname" ><br><br>
+				  <label for="password">password:</label>
+				  <input type="password" id="password" name="password" ><br><br>
+				  <input type="submit" class="submit-sign-up" value="Sign up">
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		Book Shelf 2021 
+	</footer>
+	<script src="../JavaScript/Myprofile-before.js"></script>
+
+</body>
+</html>

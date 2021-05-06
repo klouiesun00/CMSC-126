@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito:wght@300&family=Roboto+Slab:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Nanum+Myeongjo&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+/* header styling starts here */
+/* had to give ul an id here bcos i used ul multiple times */
+header { 
+	background-color: white;
+	padding: 0px;
+	border-bottom: 1px solid black;
+ }
+
+#logo{
+ 	margin-left:20px;
+ }
+
+#navidiv {
+	background-color: #F2542D;
+	overflow: hidden;
+}
+
+#navidiv img{
+	margin-left: 30px;
+	padding:0;
+}
+
+/*for nav bar to be sticky */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#navbar {
+	float: right;
+	list-style-type: none;
+	margin-top: 60px;
+}
+
+#navbar li{
+	display: inline;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Merriweather", "Roboto Slab", serif;
+}
+
+#navbar li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.4s ease;
+}
+
+#navbar li a:hover{
+	background-color: orange;
+	color: black;
+}
+/* header styling ends here */
+
+.profile {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: #f3bda1;
+	padding: 40px;
+}
+.info {
+	margin-left: 150px;
+}
+
+#pp {
+	border: 3px solid black;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+
+#info {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	list-style-type: none;
+	font-family: "Nunito", sans-serif;
+	line-height: 60px;
+	font-size: 30px;
+
+}
+
+button {
+	padding: 10px;
+	font-size: 20px;
+	font-family: "Nunito", sans-serif;
+	font-weight: bold;
+	background: #0E9594;
+	border: 2px solid black;
+	border-radius: 8px;
+	letter-spacing: 3px;
+	transition: ease 0.3s;
+}
+
+button:hover {
+	cursor: pointer;
+	background: #127475;
+	color: white;
+}
+
+span {
+	font-weight: bold;
+}
+
+h3 {
+	font-family: "M PLUS 1p", sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+.books {
+	margin-top: 40px;
+	padding: 50px;
+	border: 5px solid #fb3640;
+	border-radius: 15px;
+	background: #F5DFBB;
+	filter: drop-shadow(10px 15px 6px #393e46);
+}
+
+.authors {
+	margin-top: 60px;
+	padding: 50px;
+	border: 5px solid #fb3640;
+	border-radius: 15px;
+	background: #F5DFBB;
+	filter: drop-shadow(10px 15px 6px #393e46);
+}
+
+ol {
+	padding: 30px;
+	font-size: 25px;
+	font-family: "Barlow", sans-serif;
+	padding-left: 80px;
+
+}
+
+#author-list {
+	font-size: 30px;
+}
+
+footer {
+	background-color: #F2542D;
+	padding:10px;
+	font-family: "Merriweather", serif;
+}
